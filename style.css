@@ -1,0 +1,25 @@
+body {
+    color:blue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.gridRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
